@@ -11,11 +11,16 @@ public class BinarySearchImpl {
 	@Autowired
 	private SortAlgorithm sortalgorithm; 
 	
+	//---> constructor injection
+//	public BinarySearchImpl(SortAlgorithm sortalgorithm) {
+//		super();
+//		this.sortalgorithm = sortalgorithm;
+//	}
 	
-	public BinarySearchImpl(SortAlgorithm sortalgorithm) {
-		super();
-		this.sortalgorithm = sortalgorithm;
-	}
+	// ---> setter injection
+//	public void setSortalgorithm(SortAlgorithm sortalgorithm) {
+//		this.sortalgorithm = sortalgorithm;
+//	}
 
 
 	public int binarySearch(int[] numbers,int numberToSearchFor) {
@@ -33,6 +38,8 @@ public class BinarySearchImpl {
       //Return the result
 		return 3; // dummy
 	}
+
+	
 	
 	
 }
