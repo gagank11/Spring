@@ -9,8 +9,6 @@ public class SpringIn5StepsApplication {
 
 	public static void main(String[] args) {
 		
-	// => we don't need this as spring will create this for us ->	BinarySearchImpl binarysearch = new BinarySearchImpl(new BubbleSortAlgorithm());
-		
 		ApplicationContext applicationContext = SpringApplication.run(SpringIn5StepsApplication.class, args);
 		
 		BinarySearchImpl binarySearchImpl=applicationContext.getBean(BinarySearchImpl.class);
