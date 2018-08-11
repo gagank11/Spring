@@ -9,7 +9,8 @@ public class BinarySearchImpl {
 	
 	
 	@Autowired
-	private SortAlgorithm sortalgorithm; 
+	private SortAlgorithm bubbleSortAlgorithm; 
+	//private SortAlgorithm QuickSortAlgorithm; //autowiring by name(variable)
 	
 	//---> constructor injection
 //	public BinarySearchImpl(SortAlgorithm sortalgorithm) {
@@ -28,8 +29,8 @@ public class BinarySearchImpl {
 	//now we can comment out the line below s we are refering to the interface reference type 
 		//--->BubbleSortAlgorithm bubbleSortAlgorithm = new BubbleSortAlgorithm();
 		
-		int[] sortedNumbers= sortalgorithm.sort(numbers);
-		 System.out.println(sortalgorithm);
+		int[] sortedNumbers= bubbleSortAlgorithm.sort(numbers);
+		 System.out.println(bubbleSortAlgorithm);
 	
 		// to perform binary search array must be sorted so it's tightly coupled by bubblesort logic here 
 		// but if we need to change the the code here 
