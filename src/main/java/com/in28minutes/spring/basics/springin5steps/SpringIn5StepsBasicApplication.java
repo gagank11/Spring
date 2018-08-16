@@ -4,12 +4,14 @@ import org.springframework.boot.SpringApplication;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
-import com.in28minutes.spring.basics.springin5steps.basic.BinarySearchImpl;
+import basic.BinarySearchImpl;
 
 
 
 @SpringBootApplication
+@ComponentScan("package basic")
 public class SpringIn5StepsBasicApplication {
 
 	public static void main(String[] args) {

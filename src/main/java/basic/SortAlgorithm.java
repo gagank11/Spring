@@ -1,4 +1,4 @@
-package com.in28minutes.spring.basics.springin5steps.basic;
+package basic;
 
 public interface SortAlgorithm {
 

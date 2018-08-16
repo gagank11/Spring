@@ -1,4 +1,4 @@
-package com.in28minutes.spring.basics.springin5steps.scope;
+package scope;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
