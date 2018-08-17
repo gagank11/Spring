@@ -29,6 +29,8 @@ public class SpringIn5StepsBasicApplication {
 	int result = binarySearchImpl.binarySearch(new int[] {12,4,5,7,8},3);  
 		 
 		System.out.println(result);
+		
+		
 	
 	}
 }
